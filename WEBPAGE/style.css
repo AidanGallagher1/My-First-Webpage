@@ -1,0 +1,135 @@
+body {
+    background-color: darkgreen;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+div {
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid white;
+}
+
+.navbar {
+    background-color: #f5f5dc;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 2px solid darkgreen;
+    background-color: white;
+}
+
+.navbar a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.intro {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+}
+
+.pictures {
+    background-color: #f5f5dc;
+    color: darkgreen;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pictures h2 {
+    width: 100%;
+}
+
+.info {
+    background-color: #b7d7a8;
+    color: #1b3b1b;
+}
+
+.services {
+    background-color: #f5f5dc;
+    color: darkgreen;
+}
+
+.travel {
+    background-color: #b7d7a8;
+    color: #1b3b1b;
+}
+
+.closing {
+    background-color: #d9ead3;
+    color: #123512;
+    text-align: center;
+}
+
+.contact {
+    background-color: #f5f5dc;
+    color: darkgreen;
+    text-align: center;
+}
+
+.map {
+    background-color: #b7d7a8;
+    color: #1b3b1b;
+    text-align: center;
+}
+
+.inquiry {
+    background-color: #d9ead3;
+    color: #123512;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid darkgreen;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+a {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    background-color: white;
+    color: darkgreen;
+    padding: 12px 18px;
+    margin-top: 10px;
+    border: 3px solid darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: darkgreen;
+    color: white;
+}
